@@ -1,4 +1,4 @@
-﻿# Resources for AddonComponents grafana component
+# Resources for AddonComponents grafana component
 
 apiVersion: v1
 kind: ConfigMap
@@ -14507,7 +14507,7 @@ spec:
   ports:
     - port: 3000
       targetPort: 3000
-      nodePort: 31002
+      nodePort: 30083
       protocol: TCP
       name: http
   selector:
@@ -14854,7 +14854,7 @@ spec:
     - name: http-kiali
       protocol: TCP
       port: 20001
-      nodePort: 31000
+      nodePort: 30081
   selector:
     app: kiali
 ---
@@ -15528,7 +15528,7 @@ spec:
       port: 16686
       protocol: TCP
       targetPort: 16686
-      nodePort: 31001
+      nodePort: 30082
   selector:
     app: jaeger
 ---
@@ -16319,7 +16319,7 @@ spec:
       name: http2
       port: 80
       targetPort: 80
-      nodePort: 31380
+      nodePort: 30380
     -
       name: https
       port: 443

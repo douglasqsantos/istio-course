@@ -1,4 +1,4 @@
-﻿# Resources for AddonComponents grafana component
+# Resources for AddonComponents grafana component
 
 apiVersion: v1
 kind: ConfigMap
